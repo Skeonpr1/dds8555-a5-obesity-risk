@@ -1,0 +1,5 @@
+model,accuracy_mean,macro_f1_mean
+Model 1 — Multinomial Logistic Regression,0.8607284582038067,0.8451862977276905
+Model 2 — Linear Discriminant Analysis (shrinkage),0.8170827391330621,0.7977891242867984
+Model 4 — Linear SVM (One-vs-Rest),0.7500720280727081,0.7133111383772719
+Model 3 — Naïve Bayes (Gaussian),0.5869546898448633,0.5218667537484211

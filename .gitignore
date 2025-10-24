@@ -1,0 +1,46 @@
+# --- Core ignores ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+desktop.ini
+.kaggle/
+kaggle.json
+
+# --- Keep folders but ignore their contents (except keepers) ---
+data/*
+figs/*
+outputs/*
+
+!data/.keep-data
+!figs/.keep-figs
+!outputs/.keep-outputs
+
+# Optional: ignore raw CSVs at repo root
+train.csv
+test.csv
+sample_submission.csv
+
+# Keep assignment artifacts at root
+!CV_Summary_Models_1_to_4.csv
+!Model_1_-_Multinomial_Logistic_Regression.csv
+!Model_2_-_Linear_Discriminant_Analysis_shrinkage.csv
+!Model_3_-_Naïve_Bayes_Gaussian.csv
+!Model_4_-_Linear_SVM_One-vs-Rest.csv
+!A5_obesity_results.Rmd
+!A5_obesity_results.html
+!A5_obesity_results.ipynb
+!README.md
+!KAGGLE_RESULTS.md
+!requirements.txt
+!cv_accuracy_bar.png
+!cv_macroF1_bar.png
+!cv_accuracy_bar_ggplot.png
+!cv_macroF1_bar_ggplot.png
+!cv_summary_table.html
